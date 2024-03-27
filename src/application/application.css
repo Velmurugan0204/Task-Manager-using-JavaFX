@@ -1,0 +1,100 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.bg-form{
+	-fx-background-color: linear-gradient(to bottom right,#11839a,#42823d);
+}
+.white-form{
+	-fx-background-color: #fff;
+	-fx-background-radius:0.0 10px;
+}
+.login-btn{
+	-fx-background-color: linear-gradient(to bottom right, #11839a,#42823d);
+	-fx-background-radius: 8px;
+	-fx-text-fill:#fff;
+	-fx-font-size:14px;
+	-fx-cursor: hand;
+	
+}
+.textfield{
+	-fx-background-color: #eee;
+	-fx-background-color: #ddd;
+	-fx-border-width: .2px;
+}
+.textfield:focused{
+	-fx-background-color: #fff;
+	-fx-border-color: linear-gradient(to bottom right,#11839a,#42823d);
+	-fx-border-width: 1px;
+	}
+.hyperlink{
+	-fx-background-color: transparent;
+	-fx-underline: false;
+	-fx-text-fill: #42823d;
+}	
+.hyperlink:hover{
+	-fx-text-fill: #11839a;
+}
+.nav-form{
+	-fx-background-color:#2b3929;
+}
+
+.center-form{
+	-fx-background-color: #20281e;
+}
+
+.nav-btn{
+	-fx-background-color:transparent;
+	-fx-border-color: linear-gradient(to bottom right,#11839a,#42823d);
+	-fx-text-fill: #fff;
+	-fx-font-size:14px;
+	-fx-cursor:hand;
+}
+.nav-btn:hover{
+		-fx-background-color: linear-gradient(to bottom right,#11839a,#42823d);
+		-fx-background-radius:8px;
+	
+}	
+.border{
+	-fx-border-color:linear-gradient(to bottom right,#11839a,#42823d);
+	-fx-border-radius:8px;
+}
+.table-view{
+	-fx-background-color: transparent;
+	-fx-border-color:linear-gradient(to bottom right,#11839a,#42823d);
+	-fx-border-width: 2px;
+	-fx-border-radius: 8px;
+	-fx-padding: 0;	
+}	
+.table-view .column-header-background{
+			-fx-background-color: linear-gradient(to bottom right,#11839a,#42823d);
+	       
+}
+.table-view .column-header, .filter{
+	-fx-background-color: transparent;
+	-fx-size:40px;
+}
+.colours{
+	-fx-text-fill:white;
+}	
+.colour{
+	-fx-background-color:white;
+}
+.table-view .column-header .label {
+   -fx-fill: blue; /* Specify your desired text color here */
+}
+
+.table-view .table-cell {
+    -fx-text-fill: red;
+     /* Specify your desired text color here */
+}
+
+.table-row-cell .text {
+    -fx-fill:black; /* Change the font color to blue */
+}
+.table-view .table-cell {
+    -fx-text-fill: black;
+     /* Specify your desired text color here */
+}
+
+.table-row-cell:status-incompleted {
+    -fx-text-fill: red;
+}
